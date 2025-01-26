@@ -1,0 +1,31 @@
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+
+  @media (max-width: 995px) {
+    flex-wrap: wrap;
+  }
+  @media (max-width: 583px) {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-links {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    a {
+      margin-right: 20px;
+    }
+    @media (max-width: 583px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      a {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

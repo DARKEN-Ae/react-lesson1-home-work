@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-links">
           <a href="/">Copyright © Cleaning X | Designed by</a>
           <a href="/">BRIX Templates</a>
-          <a href="/">- Powered by</a>
+          <a href="/">Powered by</a>
           <a href="/">Webflow</a>
           <a href="/">Licenses</a>
           </div>

@@ -16,8 +16,10 @@
     margin: 0;
     display: flex;
     align-items: center;
+    padding: 15px;
     a {
       margin-right: 20px;
+      text-decoration: none;
     }
     @media (max-width: 583px) {
       display: flex;

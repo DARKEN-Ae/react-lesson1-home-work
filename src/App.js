@@ -188,6 +188,44 @@ function App() {
             </div>
           </div>
         </section>
+        {/* 6 */}
+        <section className="contact-section">
+          <div className="contact">
+            <h2>Contact Us</h2>
+            <p className="contact-p">
+              In dignissim euismod pretium amet enim a eu nam ut urna accumsan
+              pellentesque lacus duis pharetra eutortor.
+            </p>
+            <div className="contact-mee">
+              <div className="contact-xz">
+                <img src={callCenter} alt="callCenter" />
+                <div className="in-texts">
+                  <p>Call us now</p>
+                  <p className="number-p">(414) 567 - 2109</p>
+                </div>
+              </div>
+              <hr />
+              <h3>Not convinced yet?</h3>
+              <p className="contact-p_2">
+                Massa bibendum consectetur maurisid gravida purus, dolor dui
+                amet morbi non nunc urna purus diam.
+              </p>
+              <button>Browse our packages</button>
+            </div>
+          </div>
+          <div className="contact-form">
+            <form>
+              <input type="text" placeholder="Full Name" />
+              <input type="tel" placeholder="Phone number" />
+              <input type="text" placeholder="Address" />
+              <input type="email" placeholder="Email" />
+              <input type="text" placeholder="Requested service" />
+              <input type="date" placeholder="Day of service" />
+              <textarea placeholder="Message"></textarea>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </section>
         <Footer />
       </div>
     </Fragment>
